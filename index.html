@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oefeningen Onregelmatige Werkwoorden (NT2)</title>
+    <style>
+        :root {
+            --primary-color: #005f73;
+            --primary-hover: #0a9396;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-color: #2b2d42;
+            --border-color: #e0e0e0;
+            --accent-color: #ee9b00;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin: 0 0 10px 0;
+            font-size: 1.8rem;
+        }
+
+        .subtitle {
+            color: #6c757d;
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        .exercise-section {
+            margin-bottom: 35px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .exercise-section:last-of-type {
+            border-bottom: none;
+        }
+
+        .exercise-title {
+            font-size: 1.25rem;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .instruction {
+            font-style: italic;
+            margin-bottom: 15px;
+            color: #495057;
+        }
+
+        ol, ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        input[type="text"] {
+            border: 1px solid #ced4da;
+            border-bottom: 2px solid var(--primary-color);
+            background-color: #fdfdfd;
+            padding: 4px 8px;
+            font-size: 0.95rem;
+            border-radius: 3px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        input[type="text"]:focus {
+            border-color: var(--accent-color);
+            background-color: #fff;
+        }
+
+        .mc-option {
+            display: block;
+            margin: 5px 0;
+            cursor: pointer;
+        }
+
+        .mc-option input {
+            margin-right: 8px;
+        }
+
+        .verb-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .verb-table th, .verb-table td {
+            border: 1px solid var(--border-color);
+            padding: 10px;
+            text-align: left;
+        }
+
+        .verb-table th {
+            background-color: #f1f5f9;
+            color: var(--primary-color);
+        }
+
+        details {
+            background-color: #eef9f6;
+            border: 1px solid #94d2bd;
+            border-radius: 6px;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        summary {
+            font-weight: bold;
+            color: #0a9396;
+            cursor: pointer;
+            outline: none;
+        }
+
+        summary:hover {
+            color: var(--primary-color);
+        }
+
+        .answer-key {
+            margin-top: 15px;
+        }
+
+        .answer-key h3 {
+            font-size: 1rem;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 0;
+                max-width: 100%;
+            }
+            input[type="text"] {
+                border: none;
+                border-bottom: 1px solid #000;
+                border-radius: 0;
+            }
+            details {
+                border: 1px solid #000;
+                background: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Nederlands: Onregelmatige Werkwoorden</h1>
+        <p class="subtitle">Grammatica-oefeningen (OVT &amp; Voltooid Deelwoord)</p>
+    </header>
+
+    <!-- Exercise 1 -->
+    <section class="exercise-section">
+        <div class="exercise-title">Oefening 1: Vul de juiste tabel in</div>
+        <p class="instruction">Vul de ontbrekende vormen van het werkwoord in (Imperfectum / OVT of Participium).</p>
+        <table class="verb-table">
+            <thead>
+                <tr>
+                    <th>Infinitief</th>
+                    <th>Imperfectum (OVT)</th>
+                    <th>Participium</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1. Blijven</td>
+                    <td>bleef, bleven</td>
+                    <td><input type="text" style="width: 80%;" placeholder="ge..."></td>
+                </tr>
+                <tr>
+                    <td>2. Kijken</td>
+                    <td><input type="text" style="width: 80%;" placeholder="..."></td>
+                    <td>gekeken</td>
+                </tr>
+                <tr>
+                    <td>3. Schrijven</td>
+                    <td>schreef, schreven</td>
+                    <td><input type="text" style="width: 80%;" placeholder="ge..."></td>
+                </tr>
+                <tr>
+                    <td>4. Verliezen</td>
+                    <td><input type="text" style="width: 80%;" placeholder="..."></td>
+                    <td>verloren</td>
+                </tr>
+                <tr>
+                    <td>5. Drinken</td>
+                    <td>dronk, dronken</td>
+                    <td><input type="text" style="width: 80%;" placeholder="ge..."></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Exercise 2 -->
+    <section class="exercise-section">
+        <div class="exercise-title">Oefening 2: Imperfectum (OVT) invullen</div>
+        <p class="instruction">Vul de juiste OVT-vorm van het werkwoord tussen haakjes in.</p>
+        <ol>
+            <li>Gisteren <input type="text" style="width: 120px;"> (lezen) ik een interessant boek.</li>
+            <li>Wij <input type="text" style="width: 120px;"> (eten) om zeven uur 's avonds.</li>
+            <li>De kinderen <input type="text" style="width: 120px;"> (lopen) heel snel naar school.</li>
+            <li>Hij <input type="text" style="width: 120px;"> (geven) haar een mooi cadeau.</li>
+            <li>Zij (enkelvoud) <input type="text" style="width: 120px;"> (zoeken) de hele dag naar haar sleutels.</li>
+        </ol>
+    </section>
+
+    <!-- Exercise 3 -->
+    <section class="exercise-section">
+        <div class="exercise-title">Oefening 3: Perfectum (Voltooid Tijd) invullen</div>
+        <p class="instruction">Vul het participium (voltooid deelwoord) van het werkwoord in.</p>
+        <ol>
+            <li>Heb je de nieuwe film al <input type="text" style="width: 130px;">? (zien)</li>
+            <li>Zij zijn gisteren naar Amsterdam <input type="text" style="width: 130px;">. (gaan)</li>
+            <li>Ik heb al een brief <input type="text" style="width: 130px;">. (schrijven)</li>
+            <li>De man heeft de tas van de vrouw <input type="text" style="width: 130px;">. (stelen)</li>
+            <li>Hebben jullie genoeg water <input type="text" style="width: 130px;">? (drinken)</li>
+        </ol>
+    </section>
+
+    <!-- Exercise 4 -->
+    <section class="exercise-section">
+        <div class="exercise-title">Oefening 4: Meerkeuzevragen</div>
+        <p class="instruction">Kies het juiste antwoord.</p>
+        
+        <p>1. Wat is de OVT van <strong>'brengen'</strong>?</p>
+        <label class="mc-option"><input type="radio" name="q1" value="A"> A) brengde / brengden</label>
+        <label class="mc-option"><input type="radio" name="q1" value="B"> B) bracht / brachten</label>
+        <label class="mc-option"><input type="radio" name="q1" value="C"> C) brocht / brochten</label>
+
+        <br>
+        <p>2. Wat is het participium van <strong>'vinden'</strong>?</p>
+        <label class="mc-option"><input type="radio" name="q2" value="A"> A) gevonden</label>
+        <label class="mc-option"><input type="radio" name="q2" value="B"> B) gevinden</label>
+        <label class="mc-option"><input type="radio" name="q2" value="C"> C) gevond</label>
+
+        <br>
+        <p>3. Welk werkwoord heeft een regelmatig imperfectum, maar een onregelmatig participium? (*)</p>
+        <label class="mc-option"><input type="radio" name="q3" value="A"> A) zingen</label>
+        <label class="mc-option"><input type="radio" name="q3" value="B"> B) bakken</label>
+        <label class="mc-option"><input type="radio" name="q3" value="C"> C) blijven</label>
+    </section>
+
+    <!-- Answer Key Section -->
+    <details>
+        <summary>Klik hier voor de antwoorden (Answer Key)</summary>
+        <div class="answer-key">
+            <h3>Oefening 1: Vul de juiste tabel in</h3>
+            <p>1. gebleven (zijn)<br>
+               2. keek, keken<br>
+               3. geschreven<br>
+               4. verloor, verloren<br>
+               5. gedronken</p>
+
+            <h3>Oefening 2: Imperfectum (OVT) invullen</h3>
+            <p>1. las<br>
+               2. aten<br>
+               3. liepen<br>
+               4. gaf<br>
+               5. zocht</p>
+
+            <h3>Oefening 3: Perfectum (Voltooid Tijd) invullen</h3>
+            <p>1. gezien<br>
+               2. gegaan<br>
+               3. geschreven<br>
+               4. gestolen<br>
+               5. gedronken</p>
+
+            <h3>Oefening 4: Meerkeuzevragen</h3>
+            <p>1. B) bracht / brachten<br>
+               2. A) gevonden<br>
+               3. B) bakken (OVT: bakte/bakten, Part: gebakken)</p>
+        </div>
+    </details>
+</div>
+
+</body>
+</html>
